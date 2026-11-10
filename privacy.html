@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PrettyFace 发布台 · 隐私政策</title>
+<style>
+    :root { color-scheme: light; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; padding: 0 20px 64px;
+      font-family: -apple-system, "Segoe UI", "Microsoft YaHei", sans-serif;
+      line-height: 1.75; color: #1f2328; background: #ffffff;
+    }
+    .wrap { max-width: 760px; margin: 0 auto; }
+    header { padding: 40px 0 8px; }
+    h1 { font-size: 26px; margin: 0 0 6px; letter-spacing: -0.01em; }
+    .sub { color: #6b7280; font-size: 14px; margin: 0; }
+    h2 { font-size: 17px; margin: 32px 0 8px; padding-top: 8px; border-top: 1px solid #eceff3; }
+    p, li { font-size: 15px; }
+    ul { padding-left: 22px; }
+    code {
+      background: #f4f6f8; padding: 1px 5px; border-radius: 4px;
+      font-size: 13px; font-family: ui-monospace, Consolas, monospace;
+    }
+    a { color: #1a73e8; }
+    .meta { color: #6b7280; font-size: 13px; }
+    .card {
+      border: 1px solid #e5e9ef; border-radius: 10px; padding: 16px 20px;
+      background: #fafbfc; margin: 20px 0;
+    }
+    footer {
+      margin-top: 48px; padding-top: 16px; border-top: 1px solid #eceff3;
+      color: #8b949e; font-size: 13px;
+    }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>隐私政策</h1>
+  <p class="sub">PrettyFace 发布台 · 最近更新：2026-11-10</p>
+</header>
+
+<p>本隐私政策说明 PrettyFace 发布台（下称「本应用」）在你授权后，
+如何访问、使用、存储与共享你的数据。本应用为公司内部工具，不对外提供服务注册。</p>
+
+<h2>一、我们访问哪些数据</h2>
+<p>仅在你明确授权后，本应用会通过官方 API 访问以下范围内的数据：</p>
+<ul>
+  <li><strong>YouTube</strong>：所授权频道的频道名称与 ID、视频列表、上传视频所需的上传权限；
+      以及在发布后读取该视频的处理状态与链接。</li>
+  <li><strong>Facebook / Instagram</strong>：所授权主页或个人专业号的名称与 ID、
+      发布贴文与快拍所需的内容发布权限。</li>
+</ul>
+<p>本应用<strong>不会</strong>访问你的 Gmail 邮件内容、Google 云端硬盘文件、日历、通讯录、
+浏览记录，也不会读取与你所管理频道无关的任何账号数据。</p>
+
+<h2>二、我们如何使用这些数据</h2>
+<ul>
+  <li>把你提交的素材上传到你指定的频道或主页</li>
+  <li>在界面上显示频道名称与账号标识，供你确认发布目标</li>
+  <li>记录发布结果（成功与否、回执编号、链接），便于你事后核对</li>
+</ul>
+<p>数据仅用于上述目的，不用于广告投放、用户画像、信用评估或任何二次分析。</p>
+
+<h2>三、数据存储与安全</h2>
+<p>本应用在你自己的电脑上运行，不设云端服务器：</p>
+<ul>
+  <li>授权凭据（OAuth refresh token）保存在本机目录 <code>.data/tokens.json</code></li>
+  <li>浏览器登录态（如使用浏览器通道）保存在本机 <code>cookies/</code> 目录</li>
+  <li>发布记录保存在本机，不上传至任何第三方</li>
+</ul>
+<p>我们不将这些凭据上传到外部服务器，也不做跨设备同步。删除本地文件即可彻底移除凭据。</p>
+
+<h2>四、数据共享</h2>
+<p>我们<strong>不向任何第三方出售、出租或共享</strong>你的数据。
+数据只在你的设备与你所授权的平台（Google / Meta）之间传输，用于完成你主动发起的发布操作。</p>
+
+<h2>五、数据保留</h2>
+<p>凭据与发布记录一直保留在你本机，直到你主动删除对应账号或文件。
+你可以随时在 <a href="https://myaccount.google.com/permissions">Google 账号权限页</a>
+撤销本应用的访问权，撤销后本应用将无法再调用相关 API。</p>
+
+<h2>六、你的权利</h2>
+<ul>
+  <li>随时撤销授权（Google 账号权限页 / Meta 应用设置）</li>
+  <li>要求查看或删除本机保存的凭据与记录</li>
+  <li>停止使用并删除本应用的全部本地数据</li>
+</ul>
+
+<h2>七、Google 用户数据的使用承诺（Limited Use）</h2>
+<p>本应用对 Google 用户数据的使用遵循
+<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API 服务用户数据政策</a>，
+包括其中的 Limited Use（有限使用）要求：</p>
+<ul>
+  <li>仅使用为实现本应用已声明的功能所必需的数据</li>
+  <li>不将 Google 用户数据用于广告用途</li>
+  <li>不将 Google 用户数据转让给第三方，法律要求的情形除外</li>
+  <li>不将 Google 用户数据用于训练通用人工智能或机器学习模型</li>
+  <li>仅由人工读取，除非获得明确同意或出于安全目的</li>
+</ul>
+
+<h2>八、YouTube API 服务条款</h2>
+<p>本应用使用 YouTube API Services。使用本应用即表示你同意受
+<a href="https://www.youtube.com/t/terms">YouTube 服务条款</a>约束，
+并同时适用 <a href="https://policies.google.com/privacy">Google 隐私权政策</a>。</p>
+
+<h2>九、政策变更</h2>
+<p>如本政策发生实质性变更，我们会更新本页顶部的日期。继续使用即表示接受更新后的政策。</p>
+
+<h2>十、联系我们</h2>
+<p>对本政策或数据处理有任何疑问，请联系：
+<a href="mailto:assistantprettyface@gmail.com">assistantprettyface@gmail.com</a></p>
+
+<footer>
+  PrettyFace 发布台 · google.oauth.pf-med.com<br>
+  <a href="index.html">返回首页</a>
+</footer>
+</div>
+</body>
+</html>

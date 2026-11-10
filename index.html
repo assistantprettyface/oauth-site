@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PrettyFace 发布台 · 应用首页</title>
+<style>
+    :root { color-scheme: light; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; padding: 0 20px 64px;
+      font-family: -apple-system, "Segoe UI", "Microsoft YaHei", sans-serif;
+      line-height: 1.75; color: #1f2328; background: #ffffff;
+    }
+    .wrap { max-width: 760px; margin: 0 auto; }
+    header { padding: 40px 0 8px; }
+    h1 { font-size: 26px; margin: 0 0 6px; letter-spacing: -0.01em; }
+    .sub { color: #6b7280; font-size: 14px; margin: 0; }
+    h2 { font-size: 17px; margin: 32px 0 8px; padding-top: 8px; border-top: 1px solid #eceff3; }
+    p, li { font-size: 15px; }
+    ul { padding-left: 22px; }
+    code {
+      background: #f4f6f8; padding: 1px 5px; border-radius: 4px;
+      font-size: 13px; font-family: ui-monospace, Consolas, monospace;
+    }
+    a { color: #1a73e8; }
+    .meta { color: #6b7280; font-size: 13px; }
+    .card {
+      border: 1px solid #e5e9ef; border-radius: 10px; padding: 16px 20px;
+      background: #fafbfc; margin: 20px 0;
+    }
+    footer {
+      margin-top: 48px; padding-top: 16px; border-top: 1px solid #eceff3;
+      color: #8b949e; font-size: 13px;
+    }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>PrettyFace 发布台</h1>
+  <p class="sub">内部社媒内容发布工具</p>
+</header>
+
+<p>PrettyFace 发布台 是一个供公司内部运营人员使用的社媒内容发布工具。
+它把同一份视频或图文素材，一次提交到多个已授权的社交媒体账号，省去逐个平台手工上传的重复劳动。</p>
+
+<div class="card">
+  <strong>这个应用做什么</strong>
+  <ul>
+    <li>通过 YouTube Data API v3 上传视频到已授权的 YouTube 频道</li>
+    <li>通过 Meta Graph API 发布 Facebook 主页贴文、快拍与 Instagram 内容</li>
+    <li>记录每次发布的平台、账号、结果与回执链接，便于核对</li>
+  </ul>
+</div>
+
+<h2>授权方式</h2>
+<p>应用只在你主动点击「授权」时，通过 Google 或 Meta 的标准 OAuth 流程获取访问权限。
+授权范围限于上传内容与读取频道基本信息，不读取你的邮件、云盘、通讯录或浏览记录。
+所有凭据仅保存在你运行本工具的这台电脑上。</p>
+
+<h2>数据与隐私</h2>
+<p>关于我们如何访问、使用、存储和共享数据，请阅读
+<a href="privacy.html">隐私政策</a>；使用本应用须遵守
+<a href="terms.html">服务条款</a>。</p>
+
+<h2>使用范围</h2>
+<p>本工具为公司内部运营使用，不对外提供注册或公开服务。</p>
+
+<footer>
+  联系方式：<a href="mailto:assistantprettyface@gmail.com">assistantprettyface@gmail.com</a><br>
+  域名：google.oauth.pf-med.com · 最近更新：2026-11-10
+</footer>
+</div>
+</body>
+</html>
